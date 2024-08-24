@@ -1,0 +1,3 @@
+pyncclient
+python-crontab
+schedule
