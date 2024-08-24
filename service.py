@@ -9,7 +9,7 @@ import configparser
 
 # Load configuration
 config = configparser.ConfigParser()
-config.read('config.ini')
+config.read('/root/config.ini')
 
 # Email parameters from the config file
 email_address = config['EMAIL']['email_address']
