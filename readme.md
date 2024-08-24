@@ -71,7 +71,7 @@ Ensure that both Docker and Docker Compose are installed on your system.
      script:
        build: .
        volumes:
-         - /home/denadmin/docker/nextcloud/nextcloud/data/juergen.reinhard/files/TEF-Reports:/data
+         - /home/docker/nextcloud/nextcloud/data:/data
    ```
 
    #### Customizing the Directory to Monitor
