@@ -1,7 +1,4 @@
-Here's the complete README with the additional instructions on how to set up and run the Docker Compose configuration:
-
-
-# Folder Monitoring Microservice
+# DailyFileGuardian
 
 This microservice monitors specified folders within the `/data` directory (or another specified directory) and checks daily if they have been updated. If any folder has not been updated by the specified time, an email notification is sent to the configured recipients.
 
